@@ -2,6 +2,8 @@
 
 This repository contains a coding quiz implemented using HTML, CSS, and JavaScript. The quiz presents code-related questions to the user and calculates their score based on correct answers within a given time limit. Wrong answers result in a time penalty. Users can view and submit highscores.
 
+<img src="image.png" alt="Alt text" width="1000" height=auto>
+
 ## Usage
 
 To use the coding quiz, follow these steps:
