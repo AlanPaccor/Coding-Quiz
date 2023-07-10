@@ -5,42 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./assets/images/favicon.ico?" type="image/x-icon">
-    <title>Coding Quiz</title>
+    <title>Unique Coding Quiz</title>
     <link rel="stylesheet" href="./Assets/reset.css">
     <link rel="stylesheet" href="./Assets/styles.css">
 </head>
 <body>
     <header>
-        <button id="viewHighscoresBtn">View Highscores</button> 
+        <button id="viewScoresBtn">View Scores</button> 
         <p style="display: none">Time: <span id="timerTag">9999</span></p> 
     </header>
     <main> 
-        <h1 id="title">Coding Quiz Challenge</h1> 
-        <p id="instructions">Answer the following code-related questions within the time limit. Keep in mind that wrong answers will decrease your time by ten seconds!</p>
-        <button id="startBtn">Start Quiz</button> 
+        <h1 id="title">Unique Coding Quiz Challenge</h1> 
+        <p id="instructions">Test your coding knowledge by answering the following questions within the given time limit. Remember, incorrect answers will result in a time penalty of ten seconds!</p>
+        <button id="startQuizBtn">Start Quiz</button> 
         <ul>
             
         </ul>
-        <div id="submit-highscore-div"> 
-            <h1>All Done!</h1> 
+        <div id="submit-score-div"> 
+            <h1>Quiz Completed!</h1> 
             <p>Your final score is <span id="scoreSpan">999</span>.</p> 
-            <div id="highscore-input-div"> 
-                <p>Enter Name:</p>
-                <input type="text" id="fname" name="fname" value="">
-                <button id="submitHighscoreBtn">Submit</button>
+            <div id="score-input-div"> 
+                <p>Enter your name:</p>
+                <input type="text" id="nameInput" name="nameInput" value="">
+                <button id="submitScoreBtn">Submit</button>
             </div>
         </div>
-        <div id="display-highscore-div"> 
-            <h1>Highscores</h1>
+        <div id="display-scores-div"> 
+            <h1>High Scores</h1>
             <ol>
                 
             </ol>
             <button id="goBackBtn">Go Back</button> 
-            <button id="clearHighscoreBtn">Clear Highscores</button> 
+            <button id="clearScoresBtn">Clear Scores</button> 
         </div>
     </main>
     <footer>
-        <p>CHALLENGE YOURSELF</p>
+        <p>Challenge Yourself!</p>
     </footer>
     <script src="./Assets/java.js"></script>
 </body>

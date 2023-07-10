@@ -1,150 +1,151 @@
-:root{
-    --btnBackground: #db68f1;
-    --btnBackgroundHover: #8f35a5;
-    --mainBackground: #ced6e6;
-    --mainTextColor: #000000;
-    --secondaryBackground: #6785b6;
-}
-
-body {
+:root {
+    --btnBackground: #ff7f50;
+    --btnBackgroundHover: #ff6347;
+    --mainBackground: #f5f5f5;
+    --mainTextColor: #333333;
+    --secondaryBackground: #a9a9a9;
+  }
+  
+  body {
     position: relative;
     margin: 0.5rem;
     min-height: 98vh;
     background: var(--mainBackground);
     color: var(--mainTextColor);
-}
-
-header {
+  }
+  
+  header {
     display: flex;
-    align-content: space-between;
+    align-items: center;
     justify-content: space-between;
     width: 100%;
     height: 100%;
-}
-
-#display-highscore-div > button,
-#highscore-input-div > button,
-header button {
+  }
+  
+  #display-scores-div > button,
+  #score-input-div > button,
+  header button {
     text-decoration: none;
     background: var(--btnBackground);
     color: var(--mainTextColor);
     border: 0;
-    border-radius: 7px; 
-    padding: 3px 10px 3px 10px;
-}
-
-header p {
-    padding: 3px 10px 3px 10px; 
-}
-
-main {
+    border-radius: 7px;
+    padding: 3px 10px;
+  }
+  
+  header p {
+    padding: 3px 10px;
+  }
+  
+  main {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
-}
-
-main h1 {
+  }
+  
+  main h1 {
     margin: 3vh;
-    font-size: 200%;
+    font-size: 2rem;
     text-align: center;
-}
-
-main > div,
-#instructions {
-    padding: 0 15% 0 15%;
+  }
+  
+  main > div,
+  #instructions {
+    padding: 0 15%;
     text-align: center;
-    font-size: 125%;
-}
-
-main > button {
+    font-size: 1.25rem;
+  }
+  
+  main > button {
     margin: 3vh;
     width: max-content;
-    padding: 0 10px 0 10px;
+    padding: 0 10px;
     background: var(--btnBackground);
     color: var(--mainTextColor);
     border: 0;
-    border-radius: 7px; 
-    font-size: 150%;
-}
-
-main > ul {
+    border-radius: 7px;
+    font-size: 1.5rem;
+  }
+  
+  main > ul {
     align-self: flex-start;
     margin-left: 15%;
-}
-
-main > ul li {
+  }
+  
+  main > ul li {
     margin: 3vh;
     width: max-content;
     min-width: 10vw;
-    padding: 5px 10px 5px 10px;
+    padding: 5px 10px;
     background: var(--btnBackground);
     color: var(--mainTextColor);
     border: 0;
-    border-radius: 7px; 
-    font-size: 150%;
-}
-
-main > div {
+    border-radius: 7px;
+    font-size: 1.5rem;
+  }
+  
+  main > div {
     justify-content: flex-start;
     display: none;
-}
-
-main > div > * {
+  }
+  
+  main > div > * {
     margin: 1rem;
-}
-
-#submit-highscore-div button:hover,
-#display-highscore-div button:hover,
-body button:hover, 
-main > ul li:hover {
+  }
+  
+  #submit-score-div button:hover,
+  #display-scores-div button:hover,
+  body button:hover,
+  main > ul li:hover {
     background: var(--btnBackgroundHover);
     cursor: pointer;
-}
-
-footer {
+  }
+  
+  footer {
     position: absolute;
     height: 5vh;
     width: 100%;
     bottom: 0;
     text-align: center;
-}
-
-#highscore-input-div {
+  }
+  
+  #score-input-div {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#highscore-input-div > *{
+  }
+  
+  #score-input-div > * {
     margin: 0.5rem;
-}
-
-#highscore-input-div > p {
+  }
+  
+  #score-input-div > p {
     display: inline;
-}
-
-#highscore-input-div > input {
-    width:30%;
-}
-
-* {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-#startBtn,
-#submitHighscoreBtn,
-#viewHighscoresBtn,
-#clearHighscoreBtn,
-#goBackBtn,
-#instructions,
-#title  {
-  font-size: 130%;
-  padding: 10px 20px;
-}
-
-#title {
-    font-size: 250%;
+  }
+  
+  #score-input-div > input {
+    width: 30%;
+  }
+  
+  * {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  #startQuizBtn,
+  #submitScoreBtn,
+  #viewScoresBtn,
+  #clearScoresBtn,
+  #goBackBtn,
+  #instructions,
+  #title {
+    font-size: 1.3rem;
+    padding: 10px 20px;
+  }
+  
+  #title {
+    font-size: 2.5rem;
     font-weight: 600;
-}
+  }
+  
